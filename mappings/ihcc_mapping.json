@@ -86,15 +86,16 @@
             "type": "keyword"
           },
           "demographics": {
-            "properties": null,
-            "sexes_studied": {
-              "type": "keyword"
-            },
-            "genders_studied": {
-              "type": "keyword"
-            },
-            "age_range": {
-              "type": "keyword"
+            "properties": {
+              "sexes_studied": {
+                "type": "keyword"
+              },
+              "genders_studied": {
+                "type": "keyword"
+              },
+              "age_range": {
+                "type": "keyword"
+              }
             }
           }
         }
