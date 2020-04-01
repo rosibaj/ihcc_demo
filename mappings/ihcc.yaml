@@ -71,12 +71,12 @@ mappings:
           type: keyword
         demographics:
           properties:
-          sexes_studied:
-            type: keyword
-          genders_studied:
-            type: keyword
-          age_range:
-            type: keyword
+            sexes_studied:
+              type: keyword
+            genders_studied:
+              type: keyword
+            age_range:
+              type: keyword
     sample_types:
       type: keyword
     laboratory_protocols:
