@@ -79,9 +79,9 @@
             "type": "keyword"
           },
           "pi_lead": {
-            "type": "keyword"
+            "type": "keyword",
+            "copy_to": ["cohort_autocomplete"]
           },
-          "copy_to": ["cohort_autocomplete"],
           "website": {
             "type": "keyword"
           },
